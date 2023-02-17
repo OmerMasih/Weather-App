@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Weather-Application</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <p><em>Weather ❤️ Report</em></p>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 bg-light">
+          <div class="mt-2"><strong>Search</strong> By City Name:</div>
+          <div class="input-group mb-3">
+            <input type="text" id="city" class="form-control" />
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="button" id="searchCity">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+          <div class="group-list"></div>
+        </div>
+        <div class="col-8">
+          <div class="row p-2">
+            <div class="card">
+              <div class="card-body"></div>
+            </div>
+          </div>
+          <div class="row">
+            <h4>Five-Days Forecast:</h4>
+          </div>
+
+          <div id="ForecastWeekly" class="row"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/1cc5977b2c.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/app.js"></script>
+  </body>
+  <div>
+    <footer class="footer">Copyright Masihullah Omer &copy;2023</footer>
+  </div>
+</html>

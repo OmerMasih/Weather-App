@@ -1,0 +1,82 @@
+body {
+  background-image: url("https://i.makeagif.com/media/11-18-2015/qeWdE6.gif");
+  background-size: cover;
+  font-family: sans-serif;
+  line-height: 1;
+}
+
+nav {
+  color: white;
+  background-color: #34245a;
+  display: flix;
+  padding: 25px;
+  font-size: 2rem;
+  text-align: center;
+}
+.container {
+  background-color: rgb(14, 78, 196);
+}
+
+h4 {
+  background-color: #b94e77;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-weight: bolder;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.list-group-item {
+  background-color: #b94e77;
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
+.list-group-item:last-child {
+  margin-bottom: 51px;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: #34245a;
+  width: 100%;
+  color: white;
+  border: solid whitesmoke;
+}
+.fiveDay {
+  background-color: #34245a;
+  margin: 14px;
+}
+h3 {
+  float: left;
+}
+
+#weeklyForecast {
+  background-color: #34245a;
+  border: solid whitesmoke;
+}
+
+.mt-2 {
+  background-color: #34245a;
+  border-radius: 20px;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #34245a;
+  color: whitesmoke;
+  padding: 20px;
+  font-size: 1rem;
+  margin-top: 20px;
+  position: relative;
+  top: 400px;
+  text-align: center;
+}
